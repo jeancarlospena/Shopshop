@@ -1,4 +1,48 @@
-:root {
+
+.spacing{
+  min-height:100vh;
+  display:flex; 
+  flex-direction:column; 
+  justify-content:space-between;
+}
+
+footer{
+  width: 100%;
+}
+
+select.form-select{
+  margin: 8px 0;
+}
+
+
+.card-body{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+li.list-grout-item, .col, .row, .col-6{
+  padding: 0;
+  margin: 0;
+}
+.card{
+  margin: 10px;
+}
+
+
+li.nav-item{
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  block-size: fit-content;
+}
+
+span.badge{
+  margin-top: 7px;
+}
+.col{
+  /* background-color: blue; */
+}
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +110,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
